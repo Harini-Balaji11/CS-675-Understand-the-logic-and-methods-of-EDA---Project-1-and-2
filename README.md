@@ -3,6 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-green.svg)](https://scikit-learn.org)
+[![CI](https://github.com/Harini-Balaji11/CS-675-Understand-the-logic-and-methods-of-EDA---Project-1-and-2/actions/workflows/ci.yml/badge.svg)](https://github.com/Harini-Balaji11/CS-675-Understand-the-logic-and-methods-of-EDA---Project-1-and-2/actions)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A comprehensive machine learning project that analyzes telecommunications customer data to predict churn and identify key factors influencing customer retention. This project demonstrates end-to-end data science workflow from exploratory data analysis to model deployment.

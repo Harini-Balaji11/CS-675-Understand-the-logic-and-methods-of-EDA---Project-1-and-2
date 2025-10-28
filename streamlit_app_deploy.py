@@ -191,7 +191,7 @@ def main():
             payment_method = st.selectbox("Payment Method", 
                                         ["Electronic check", "Mailed check", "Bank transfer (automatic)", "Credit card (automatic)"])
             
-            submitted = st.form_submit_button("Predict Churn Risk", use_container_width=True)
+            submitted = st.form_submit_button("Predict Churn Risk")
     
     # Main content
     col1, col2 = st.columns([2, 1])
@@ -215,7 +215,7 @@ def main():
         # Show sample data if available
         if sample_data is not None:
             st.subheader("Sample Data Structure")
-            st.dataframe(sample_data.head(10), use_container_width=True)
+            st.dataframe(sample_data.head(10), width='stretch')
     
     with col2:
         st.header("Model Performance")
@@ -242,7 +242,7 @@ def main():
                     orientation='h', color='Importance',
                     color_continuous_scale='Blues')
         fig.update_layout(height=300, showlegend=False)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
     
     # Prediction results
     if submitted:
