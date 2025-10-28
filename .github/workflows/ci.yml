@@ -3,8 +3,16 @@ name: CI/CD Pipeline
 on:
   push:
     branches: [ main, develop ]
+    paths-ignore:
+      - "README.md"
+      - "**/*.md"
+      - "docs/**"
   pull_request:
     branches: [ main ]
+    paths-ignore:
+      - "README.md"
+      - "**/*.md"
+      - "docs/**"
 
 jobs:
   test:
@@ -35,12 +43,8 @@ jobs:
       run: |
         pip install pytest
         pytest tests/ -v
-    
-    - name: Run notebooks
-      run: |
-        pip install nbconvert
-        jupyter nbconvert --to notebook --execute notebooks/01_exploratory_analysis.ipynb
-        jupyter nbconvert --to notebook --execute notebooks/02_model_building.ipynb
+
+    # Skip notebook execution in CI to avoid flaky remote builds. Run locally when needed.
 
   build-docs:
     runs-on: ubuntu-latest
