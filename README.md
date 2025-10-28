@@ -7,6 +7,10 @@
 
 A comprehensive machine learning project that analyzes telecommunications customer data to predict churn and identify key factors influencing customer retention. This project demonstrates end-to-end data science workflow from exploratory data analysis to model deployment.
 
+## 🔴 Live Demo
+
+- Deployed App: https://harini-balaji11-cs-675-understand-t-streamlit-app-deploy-i6im9z.streamlit.app/
+
 ## 🎯 Project Overview
 
 Customer churn is a critical challenge for telecommunications companies, with acquiring new customers costing 5-25x more than retaining existing ones. This project tackles this business problem by:
@@ -89,8 +93,8 @@ Customer churn is a critical challenge for telecommunications companies, with ac
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/telco-churn-analysis.git
-   cd telco-churn-analysis
+   git clone https://github.com/Harini-Balaji11/CS-675-Understand-the-logic-and-methods-of-EDA---Project-1-and-2.git
+   cd CS-675-Understand-the-logic-and-methods-of-EDA---Project-1-and-2
    ```
 
 2. **Install dependencies**
@@ -179,9 +183,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Harini Balaji**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@Harini-Balaji11](https://github.com/Harini-Balaji11)
+
 
 ## 🙏 Acknowledgments
 
