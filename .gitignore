@@ -128,15 +128,15 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Data files
-*.csv
+# Data files (except project data)
+# *.csv
 *.xlsx
 *.xls
-*.json
+# *.json
 *.parquet
 
-# Model files
-*.pkl
+# Model files (except project models)
+# *.pkl
 *.joblib
 *.h5
 *.model
